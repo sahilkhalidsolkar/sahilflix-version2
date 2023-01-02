@@ -1,0 +1,10 @@
+search movies with their name
+https://yts.mx/api/v2/list_movies.json?query_term=${movie}
+get movies by id
+https://yts.mx/api/v2/movie_details.json?movie_id=13106
+
+
+
+
+for reference use this
+https://yts.mx/api#make_request

@@ -1,0 +1,84 @@
+:root {
+    --backgound: #161515;
+  }
+body{
+    background-color:var(--background) ;
+}
+.active{
+    color:rgb(245, 251, 245)
+}
+.pagination li a{
+    color:rgb(4, 248, 37);
+    font-size: 1.2rem;
+}
+.pagination .active a{
+    background-color: rgb(19, 17, 17);
+    
+}
+.pagination{
+    display:flex;
+    justify-content: center;
+}
+/* full movie page */
+
+.movie_title{
+    color:rgb(251, 251, 251);
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;   
+    letter-spacing: 0.3rem;
+}
+.movie_image{
+    display:flex;
+    justify-content: center; 
+}
+.movie_summary{
+    color:white;
+    font-size:1.2rem;
+}
+.movie_information{
+    color:white;
+    font-size:1.2rem;
+}
+ /* download tabs */
+ .download_tabs{
+     background-color: transparent;
+ }
+.download_tabs li a{
+    color:rgb(73, 245, 73);
+}
+.download_tabs .indicator{
+    background:rgb(53, 245, 28)
+}
+.download_tabs .tab a:hover, .download_tabs .tab a.active{
+    background-color: rgba(29, 243, 47, 0.281);
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: rgba(171, 241, 131, 0.2);
+    outline: none;
+}
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: 1.2rem;
+}
+.download_button{
+    background-color: rgb(60, 255, 0);
+    color:rgb(8, 8, 8);
+    font-weight: 700;
+}
+.progress .indeterminate:after{
+    background-color: rgb(60, 255, 0);
+}
+.progress .indeterminate::before{
+    background-color: rgb(158, 245, 131);
+}
+.progress {
+    
+    background-color: black;}
+
+
+
+
+
+
+
